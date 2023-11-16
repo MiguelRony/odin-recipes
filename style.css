@@ -1,0 +1,29 @@
+body {
+    background-color: lightpink;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.recipes-list {
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipe, a{
+    color: rgb(139, 114, 61);
+    font-weight: 300;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+}
