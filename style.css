@@ -1,28 +1,39 @@
 body {
-    background-color: lightpink;
-}
-
-.header{
-    color: white;
-    text-align: center;
+    background-color: rgb(233, 193, 177);
+    max-width: 800px;
+    margin: 0 auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.title{
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container { 
+    display: block;
+    text-align: center  ;
+}
+
 .image {
-    width: 300px;
-    height: auto;
+    width: 800px;
+    height: 400px;
 }
 
 .recipes-list {
-    background-color: aqua;
+    margin: 8px 50px;
+    border: 2px solid black;
+    background-color: rgb(200, 255, 0);
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
 .recipe, a{
-    color: rgb(139, 114, 61);
-    font-weight: 300;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
     font-size: 30px;
     list-style-type: none;
     text-decoration: none;
